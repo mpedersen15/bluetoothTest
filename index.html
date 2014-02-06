@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
@@ -7,13 +8,16 @@
 	
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css">
 </head>
+
 <body>
-
-<div data-role="page" id="page1">
-	<p id="welcome">I hope this works!</p>
-	<div id="connectBtn" data-role="button">Connect</div>
-
-</div>
-
+	<div data-role="page" id="page1">
+		<div data-role="header" style="margin-top:0;padding-left:10px;font-size:2em" data-position="fixed"><p>Bluetooth Test <span id="page"></span></p></div>
+		<div data-role="content">
+			<p id="welcome">Hey there!</p>
+			<div data-role="button" class="ui-btn" id="connectBtn">Connect</div>
+		</div>
+	</div>
 </body>
+
+
 </html>
