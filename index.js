@@ -1,6 +1,7 @@
 $(document).on("pageinit",function(){
 	$('#connectBtn').click(function(){
-		$('#welcome').css('background-color','blue');
+		$('#welcome').css('background-color','lightblue');
+		$('#welcome').css('color','white');
 		/* bluetoothSerial.isEnabled(
 			function(){
 				$('#welcome').append('<p>It worked!</p>');
@@ -10,4 +11,4 @@ $(document).on("pageinit",function(){
 			}
 		); */
 	});
-}
+});
