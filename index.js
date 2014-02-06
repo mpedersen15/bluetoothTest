@@ -1,5 +1,6 @@
 $(document).on("pageinit",function(){
 	$('#connectBtn').click(function(){
+		$('#connectBtn').css('background-color','blue');
 		bluetoothSerial.isEnabled(
 			function(){
 				$('#welcome').append('<p>It worked!</p>');
